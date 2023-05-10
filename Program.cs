@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string name = "Andy";
+
+            string apelldido = "Guzman Escalera";
+
+            string nombreCompleto = name + apelldido;
+            Console.WriteLine(nombreCompleto);
+
+
             int n1 = 2;
             int n2 = 3;
 
